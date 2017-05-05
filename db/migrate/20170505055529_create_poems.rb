@@ -1,6 +1,6 @@
-class CreateUsers < ActiveRecord::Migration
+class CreatePoems < ActiveRecord::Migration
   def change
-    create_table :users do |t|
+    create_table :poems do |t|
       t.string :title
       t.text :content
 
